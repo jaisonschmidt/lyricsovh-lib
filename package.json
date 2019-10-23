@@ -2,9 +2,10 @@
     "name": "lyricsovh-lib",
     "version": "1.0.0",
     "description": "A simple library to work with Lyrics.ovh API.",
-    "main": "index.js",
+    "main": "dist/lyrics-ovh-js.min.js",
     "repository": "https://github.com/jaisonschmidt/lyricsovh-lib.git",
     "author": "Jaison Schmidt <jaisonschmidt@gmail.com> (https://jaison.com.br/)",
+    "homepage": "https://jaison.com.br",
     "license": "MIT",
     "scripts": {
         "test": "jest --detectOpenHandles",
@@ -12,6 +13,9 @@
         "build": "webpack",
         "start": "webpack-dev-server"
     },
+    "files": [
+        "dist"
+    ],
     "jest": {
         "automock": false
     },
