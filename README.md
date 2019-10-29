@@ -7,7 +7,7 @@ A simple library that works with lyrics.ovh API. You can get suggests and lyrics
 Use the package manager [NPM](https://npmjs.com) to install Lyrics-ovh.
 
 ```bash
-npm install lyrics-ovh
+npm i lyricsovh-lib
 ```
 
 ## Usage
